@@ -1,6 +1,6 @@
 # Home Server
 
-In this tutorial I will guide you how to create a home server in your old laptop using Ubuntu.
+In this tutorial I will guide you to how to create a home server in your old laptop using Ubuntu.
 
 -> First install Ubuntu's latest server version in thier official website.
 
@@ -18,6 +18,8 @@ In this tutorial I will guide you how to create a home server in your old laptop
 
 -> It will look like the below image after you clicked it.
 
+# Boot Image
+
 ![boot](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/c02364d2-7edd-4a10-8708-a855a1ed7e3c)
 
 -> Press Try or Install Ubuntu server.
@@ -28,7 +30,14 @@ In this tutorial I will guide you how to create a home server in your old laptop
 
 -> If you want your server to run 24/7 click the ubuntu server or click ubuntu server (minimized).
 
-![install](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/02768526-039e-4373-9182-0a18d62c3da2)
+
+![server](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/e6b1ae68-f7af-4b97-b6ad-05aca014820b)
+
+-> Now setup your network connection. As I told, if you decided to run your server 24/7 ethernet is great option as it won't disconnect unlike wifi.
+
+# Network Image
+
+![network](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/6f91871c-a4c5-46be-bc48-1b5bc00f0c9c)
 
 
 
