@@ -95,9 +95,60 @@ command : sudo apt update
 
 # Installing SAMBA
 
+-> Samba is going to help for us to make this server work.
+
 -> After running these commands type "sudo apt install samba"
 
+# YEAH I KNOW I AM MAKING IT LONG, BUT THE RESULTS WILL GIVE YOU MORE JOY.
 
 
- 
- 
+
+# Creating Directory
+
+-> Once you installed samba,type this command "mkdir /home/your_user_name/file_name"
+
+-> "mkdir = make directory (file)", "your_user_name = your username", "file_name = your desired file name".
+
+-> Then type this command "sudo nano etc/samba/smb.conf". 
+
+-> This command will allow you to make changes to the source code of samba according to your wish.
+
+-> Now I'll attach a picture to you. Do like it.
+
+#![samba](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/e8a19f40-94a5-498f-8a2f-74ccf34c2a38)
+
+->  In the path section type your folder path "/home/your_name/file_name_you_created"
+
+-> After you made changes to it press the following buttons in a correct order "ctrl+x" and "y" and "enter"
+
+# Only few steps to go !!!
+
+-> Type the command like in the below image.
+
+![sudo](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/5fcf73aa-55b9-4e4b-be24-6baf13a96458)
+
+-> After it type "sudo smbpasswd -a your_name"
+
+-> Then type a password for it.
+
+# WE FINISHED ALL OUR SETUP. NOW THE ONLY THING IS WE SHOULD KNOW THE IP ADDRESS.
+
+-> To find ip address type "sudo apt install net-tools"
+
+-> Then type "ifconfig"
+
+-> You'll see a screen as shown below.
+
+![ip](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/16e0a4ce-08f1-4ab8-ba7c-0768d2caf0ad)
+
+-> The inet is our ip address. Type it in your phone or laptop like below image.
+
+![connect](https://github.com/akash-karthikeyan-linux/Home-Server/assets/65849775/a5647b64-ae12-42bb-adfa-e8be2a99d9b1)
+
+-> You are into your server.
+
+-> You can just upload any files into your server by drag and drop and that files can be accessed by anyone connected in the same wi-fi network.
+
+# WE HAVE COMPLETED !!
+
+# THANK YOU
